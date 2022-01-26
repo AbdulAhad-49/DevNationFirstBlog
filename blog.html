@@ -5,34 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div>
-      <h1>My First Blog</h1>
+    <div class="container">
+      <nav class="nav__logo">
+        <h1 class="nav__logo_h1" id="Devnation">DevNationBlog</h1>
+        <ol class="nav__ol">
+          <li>
+            <span class="nav__li"><a href="#">Home</a></span>
+          </li>
+          <li>
+            <span class="nav__li"><a href="#contact">ContactUs</a></span>
+          </li>
+          <li>
+            <span class="nav__li"><a href="#aboutus">About us</a></span>
+          </li>
+        </ol>
+      </nav>
     </div>
-    <br />
+    <div>
+      <img src="wordclass.jpg" alt="" class="blog__img" />
+    </div>
     <section>
       <!-- Blogg section -->
 
       <!-- image -->
-      <img src="download.jpg" alt="blog pic" width="400px" />
+      <img src="studingWeb.jpg" alt="blog pic" width="400px" />
       <!-- headinbg -->
-      <h1>My first blog</h1>
+      <h1>How to become WebDeveloper</h1>
       <!-- blog description -->
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde possimus
         natus neque adipisci earum omnis laborum quae voluptatem! Maiores in
         commodi, repellat enim inventore similique nostrum quos amet explicabo
-        dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-        repellendus dolorum id libero possimus, nisi laboriosam numquam dolor
-        error neque similique, velit harum voluptatibus nostrum explicabo? Hic
-        unde error sint! Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Error, distinctio reprehenderit aliquid expedita alias
-        consectetur. Odio facilis quasi excepturi illum. Similique alias enim
-        tempora odio! Ratione reprehenderit reiciendis sequi error.
+        dolorum? Lorem ipsum dolor sit<span id="dot">...</span
+        ><span id="more"
+          >amet, consectetur adipisicing elit. Aut repellendus dolorum id libero
+          possimus, nisi laboriosam numquam dolor error neque similique, velit
+          harum voluptatibus nostrum explicabo? Hic unde error sint! Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Error, distinctio
+          reprehenderit aliquid expedita alias consectetur. Odio facilis quasi
+          excepturi illum. Similique alias enim tempora odio! Ratione
+          reprehenderit reiciendis sequi error.</span
+        >
       </p>
       <!-- link -->
-      <a href="http://www.googel.com">see more</a>
+      <button onclick="myFunction()" id="myBtn">see more</button>
       <br /><br />
     </section>
 
@@ -40,7 +59,7 @@
       <!-- Blogg section -->
 
       <!-- image -->
-      <img src="download.jpg" alt="blog pic" width="400px" />
+      <img src="Eagleattack.jpg" alt="blog pic" width="400px" />
       <!-- headinbg -->
       <h1>My first blog</h1>
       <!-- blog description -->
@@ -48,49 +67,183 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde possimus
         natus neque adipisci earum omnis laborum quae voluptatem! Maiores in
         commodi, repellat enim inventore similique nostrum quos amet explicabo
-        dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-        repellendus dolorum id libero possimus, nisi laboriosam numquam dolor
-        error neque similique, velit harum voluptatibus nostrum explicabo? Hic
-        unde error sint! Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Error, distinctio reprehenderit aliquid expedita alias
-        consectetur. Odio facilis quasi excepturi illum. Similique alias enim
-        tempora odio! Ratione reprehenderit reiciendis sequi error.
+        dolorum? Lorem ipsum dolor sit<span id="dots">...</span
+        ><span id="mores"
+          >amet, consectetur adipisicing elit. Aut repellendus dolorum id libero
+          possimus, nisi laboriosam numquam dolor error neque similique, velit
+          harum voluptatibus nostrum explicabo? Hic unde error sint! Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Error, distinctio
+          reprehenderit aliquid expedita alias consectetur. Odio facilis quasi
+          excepturi illum. Similique alias enim tempora odio! Ratione
+          reprehenderit reiciendis sequi error.</span
+        >
       </p>
       <!-- link -->
-      <a href="http://www.googel.com">see more</a>
+      <button onclick="myFunction()" id="myBtns">see more</button>
       <br /><br />
     </section>
-    <section>
-      <!-- contactUs -->
-      <form action="">
-        <div>
-          <h1>Contact Us</h1>
+    <div class="blog_form_mid">
+      <div class="blog__aboutus">
+        <div class="blog__form_heading">
+          <h1 id="aboutus">About Us</h1>
         </div>
-        <br />
         <div>
-          <label for="">first Name</label>
-          <input type="text" placeholder="firstName" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+            deleniti. Distinctio nemo omnis illum temporibus veniam pariatur id
+            dolore nobis quas nam. Facilis neque dolorem dolore modi ipsa eos
+            quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Saepe placeat velit blanditiis ad. Deserunt praesentium nobis
+            voluptates sequi! Tempore eius quas delectus ut laudantium unde non.
+            Asperiores unde dignissimos corporis! Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Dignissimos, alias blanditiis suscipit
+            voluptates voluptatibus dolores quasi vel repellat autem ratione,
+            itaque vero, neque corrupti. Corrupti dicta ratione voluptatem animi
+            inventore?Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repudiandae eum inventore dolores nihil odit omnis quam accusantium
+            ea rem repellendus, dicta delectus, ullam reprehenderit animi magnam
+            laudantium officia. Quibusdam, nihil?
+          </p>
         </div>
-        <br />
-        <div>
-          <label for="">Last Name</label>
-          <input type="text" placeholder="lastname" />
-        </div>
-        <br />
-        <div>
-          <input type="radio" name="Gender" id="Gender" />
-          <label for="gender">Male</label>
-          <input type="radio" name="Gender" id="Gender" />
-          <label for="gender">Female</label>
-        </div>
-        <br />
-        <div>
-          <input type="submit" value="Submit Contact" />
-        </div>
-      </form>
-    </section>
+      </div>
+      <section class="blog__section">
+        <!-- contactUs -->
+        <form action="">
+          <div class="blog__form_heading">
+            <h1 id="contact">Contact Us</h1>
+          </div>
+          <br />
+          <div class="blog__form_input">
+            <label for="">first Name</label>
+            <input type="text" placeholder="firstName" class="blog_form_text" />
+          </div>
+          <br />
+          <div class="blog__form_input">
+            <label for="" class="blog_form_label">Last Name</label>
+            <input type="text" placeholder="lastname" class="blog_form_text" />
+          </div>
+          <br />
+          <div class="blog__form_input">
+            <label for="">Father Name</label>
+            <input
+              type="text"
+              placeholder="Fathername"
+              class="blog_form_text"
+            />
+          </div>
+          <br />
+          <div class="blog__form_input">
+            <label for="">Contact No</label>
+            <input
+              type="tel"
+              placeholder="Contact phone"
+              class="blog_form_text"
+            />
+          </div>
+          <br />
+          <div class="blog__form_input">
+            <label for="">your Email</label>
+            <input
+              type="email"
+              placeholder="enter your email"
+              class="blog_form_text"
+            />
+          </div>
+          <br />
+          <div class="blog__form_input">
+            <label>Gender:</label>
+            <input type="radio" name="Gender" id="" />
+            <label for="">Male</label>
+            <input type="radio" name="Gender" id="" />
+            <label for="">Female</label>
+          </div>
+          <br />
+          <div class="form_submit_btn">
+            <input type="submit" value="Submit Contact" />
+          </div>
+        </form>
+      </section>
+    </div>
     <!-- footer -->
     <br /><br />
-    <footer>copyright©️Abdul Ahad 2022</footer>
+    <section class="blog__team">
+      <div class="blog_team_heading">
+        <h1>Our Team</h1>
+      </div>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Job</th>
+          <th>city</th>
+          <th>email</th>
+          <th>organization</th>
+        </tr>
+        <tr>
+          <td>AbdulAhad</td>
+          <td>23</td>
+          <td>QA</td>
+          <td>lahore</td>
+          <td>AbdulAhad@gmail.com</td>
+          <td>OneMachineSoftware</td>
+        </tr>
+        <tr>
+          <td>AbdulWahab</td>
+          <td>24</td>
+          <td>QA</td>
+          <td>lahore</td>
+          <td>Abdulwahab@gmail.com</td>
+          <td>OneMachineSoftware</td>
+        </tr>
+        <tr>
+          <td>Jasim Mir</td>
+          <td>30</td>
+          <td>QA</td>
+          <td>lahore</td>
+          <td>Jasimmir@gmail.com</td>
+          <td>OneMachineSoftware</td>
+        </tr>
+      </table>
+    </section>
+    <br /><br /><br /><br />
+    <div>
+      <footer class="blog__footer">
+        <p>
+          This is footer text alright reserved to
+          <a href="#Devnation">DevNation</a> Student
+        </p>
+        <p>copyright©️Abdul Ahad 2022</p>
+      </footer>
+    </div>
+
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dot");
+        var mybtn = document.getElementById("myBtn");
+        var more = document.getElementById("more");
+        if (dots.style.display == "none") {
+          dots.style.display = "inline";
+          mybtn.innerHTML = "SeeMore";
+          more.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          mybtn.innerHTML = "Seeless";
+          more.style.display = "inline";
+        }
+
+        var dotss = document.getElementById("dots");
+        var mybtns = document.getElementById("myBtns");
+        var mores = document.getElementById("mores");
+        if (dots.style.display == "none") {
+          dotss.style.display = "inline";
+          mybtns.innerHTML = "SeeMore";
+          mores.style.display = "none";
+        } else {
+          dotss.style.display = "none";
+          mybtns.innerHTML = "Seeless";
+          mores.style.display = "inline";
+        }
+      }
+    </script>
   </body>
 </html>
